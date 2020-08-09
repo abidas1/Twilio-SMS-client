@@ -1,5 +1,11 @@
 import { Component, State, h } from '@stencil/core';
 
+type ImessageArray = {
+    id: string,
+    type: string,
+    message: string
+}
+
 @Component({
   tag: 'app-twilio-sms',
   styleUrl: 'app-twilio-sms.css',
@@ -11,7 +17,7 @@ export class AppTwilioSms {
     @State() phoneNumber: string;
     @State() message: string;
     @State() phoneFlag: boolean = true;
-    @State() messageArray: any[] = [];
+    @State() messageArray: ImessageArray[] = [];
 
 
     sendMessage = async (data) => {
