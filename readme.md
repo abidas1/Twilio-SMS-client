@@ -1,4 +1,4 @@
-![]images/(Screenshot%20from%202020-08-09%2020-01-56.png)
+![](images/Screenshot%20from%202020-08-09%2020-01-56.png)
 
 # Stencil App Starter
 
